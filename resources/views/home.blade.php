@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Tus Posts</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,9 +14,10 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Bienvenid@ {{ Auth::user()->name }}, esta es la selección de posts que hemos hecho para ti!
 
-
+                    <div class="col align-self-center-card"><a href={{"/json-api"}}>Todos los posts</a></div>
+                    
                 </div>
             </div>
         </div>
