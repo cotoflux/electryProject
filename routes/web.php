@@ -20,7 +20,6 @@ Route::get('/', function () {
 Route::resource('json-api', 'ApiController');
 
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
