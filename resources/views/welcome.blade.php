@@ -48,6 +48,11 @@
                 font-size: 84px;
             }
 
+            
+            .secondaryTitle {
+                font-size: 42px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -60,6 +65,10 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+            }
+
+            .m-b-mds {
+                margin-bottom: 15px;
             }
         </style>
     </head>
@@ -80,10 +89,14 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Mi pagina web de Posts
+                <div class="title m-b-mds">
+                    <h4>Mi pagina web de Posts</h4>
                 </div>
-
+                
+                <div class="secondaryTitle m-b-mds">
+                    <h4>Registrate para acceder a tu listado de Posts</h4>
+                    <p>"Mi frase"</p>
+                </div>
                 <div class="links">
                     <a href="https://jsonplaceholder.typicode.com/">Documento Api Usada</a>
                     <a href="https://electryconsulting.com/es/">Prueba hecha para</a>
