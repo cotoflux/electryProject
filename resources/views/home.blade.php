@@ -13,10 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    Bienvenid@ {{ Auth::user()->name }}, esta es la selección de posts que hemos hecho para ti!
-
-                    <div class="col align-self-center-card"><a href={{"/json-api"}}>Todos los posts</a></div>
+                    <div class="col align-self-center-card">
+                        <h2>Bienvenid@ {{ Auth::user()->name }}, esta es la selección de posts que hemos hecho para ti!</h2>
+                    </div>
+                                        
+                    <div class="col align-self-center-card"><a href={{"/json-api"}}><h4> Mis posts posts</h4></a></div>
                     
                 </div>
             </div>

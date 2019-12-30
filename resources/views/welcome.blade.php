@@ -85,8 +85,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://jsonplaceholder.typicode.com/">Documento Api Usada</a>
+                    <a href="https://electryconsulting.com/es/">Prueba hecha para</a>
                 </div>
             </div>
         </div>
