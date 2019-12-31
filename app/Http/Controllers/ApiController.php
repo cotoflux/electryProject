@@ -17,20 +17,15 @@ class ApiController extends Controller
 
     public function index()
     {
-    	// Get all the post
         $posts = $this->post->all();
-        //dd($posts);
-    	return view('someviewglobal', compact('posts'));
+        return view('someviewglobal', compact('posts'));
     }
 
     public function show($id)
     {
 
-       	$post = $this->post->findById($id);
-        
+       	$post = $this->post->findById($id);      
     	return view('someview', compact('post'));
     }
-
-
 
 }

@@ -64,7 +64,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 10px;
             }
 
             .m-b-mds {
@@ -89,7 +89,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-mds">
+                <div class="title m-b-md">
                     <h4>Mi pagina web de Posts</h4>
                 </div>
                 

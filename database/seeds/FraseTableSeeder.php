@@ -1,6 +1,7 @@
 <?php
-
+use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class FraseTableSeeder extends Seeder
 {
@@ -12,7 +13,7 @@ class FraseTableSeeder extends Seeder
     public function run()
     {
         DB::table('frases')->insert([
-            'body'=>Str::random(30),
+            'body'=> Str::random(30),
         ]);
     }
 }

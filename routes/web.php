@@ -16,7 +16,6 @@ use GuzzleHttp\Client;
 
 Route::get('/', 'FrasesController@index');
 
-
 Route::resource('json-api', 'ApiController');
 
 
