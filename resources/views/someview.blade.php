@@ -9,8 +9,7 @@
                         <p>Usuario:  {{ $post->userId}}</p> 
                         <h4>Titulo: </h4>
                         <h5><strong>{{ $post->title}} </strong></h5>
-                            <div class="card-body">
-                        
+                            <div class="card-body">                      
                                 <h4>{{ $post->body}}</h4>
                             </div>
                     </div>
