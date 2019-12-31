@@ -1,7 +1,7 @@
 
-##ElectryProject:
+### ElectryProject:
 
-##Español:
+## Español:
 
 Para ver el proyecto primero se debe bajar en local, bien con un git clone (https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git) o con un fork (http://aprendegit.com/fork-de-repositorios-para-que-sirve/).
 
@@ -33,7 +33,7 @@ Saludos,
 
 Núria
 
-##English
+## English
 
 To see this project locali, first you should download the project localy. You coul use git clone (https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git) or you can fork the repository (http://aprendegit.com/fork-de-repositorios-para-que-sirve/).
 
