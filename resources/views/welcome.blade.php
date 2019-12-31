@@ -95,7 +95,11 @@
                 
                 <div class="secondaryTitle m-b-mds">
                     <h4>Registrate para acceder a tu listado de Posts</h4>
-                    <p>"Mi frase"</p>
+                                     
+                    @foreach($frases as $frase)
+                        {{$frase->body}}
+                    @endforeach
+                     
                 </div>
                 <div class="links">
                     <a href="https://jsonplaceholder.typicode.com/">Documento Api Usada</a>

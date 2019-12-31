@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FrasesController;
 use GuzzleHttp\Client;
 
 /*
@@ -13,9 +14,8 @@ use GuzzleHttp\Client;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'FrasesController@index');
+
 
 Route::resource('json-api', 'ApiController');
 
